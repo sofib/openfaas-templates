@@ -39,16 +39,6 @@ class Factory
         );
 
         $runner->run();
-
-        // $request = new Request();
-        // $request->setMethod($_SERVER['HTTP_METHOD']);
-        // $request->setUri($_SERVER['HTTP_PATH']);
-        // $request->getHeaders()->addHeaders(['Http_Content_Type' => $_SERVER['Http_Content_Type']]);
-        // $request->setContent(stream_get_contents(STDIN));
-        
-        // $response = new Response();
-        // (new \App\Handler())->handle($request, $response);
-        // echo $response;
     }
 }
 

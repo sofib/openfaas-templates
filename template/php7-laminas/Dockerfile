@@ -49,6 +49,7 @@ USER app
 
 WORKDIR /home/app
 
+ENV PHP_CLI_SERVER_WORKERS=10
 ENV fprocess="php -S 127.0.0.1:3000 index.php"
 ENV cgi_headers="true"
 ENV mode="http"
